@@ -1,0 +1,11 @@
+{
+  "name": "unified-resolver",
+  "keywords": [
+    "ember-addon"
+  ],
+  "devDependencies": {
+    "broccoli-funnel": "^1.0.7",
+    "broccoli-merge-trees": "^1.1.4",
+    "broccoli-stew": "^1.3.3"
+  }
+}
