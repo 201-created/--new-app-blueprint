@@ -15,6 +15,6 @@ The standard ember install/server process should "just work" here, even though f
  * `npm install && bower install`
  * `ember serve`
  
- ## Diff
+## Diff
  
- Here is a [diff that shows the changes made to this branch](https://github.com/rwjblue/--new-app-blueprint/compare/master...201-created:master) relative to a typical app blueprint that doesn't use the forked resolver.
+Here is a [diff that shows the changes made to this branch](https://github.com/rwjblue/--new-app-blueprint/compare/master...201-created:master) relative to a typical app blueprint that doesn't use the forked resolver.
