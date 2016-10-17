@@ -5,6 +5,12 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
+
+    // need to explicitly make sure that ember-cli will not try to pull in a
+    // hardcoded ember-resolver.js
+    vendorFiles: {
+      'ember-resolver.js': null
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
