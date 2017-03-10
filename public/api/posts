@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "post",
+      "attributes": {
+        "full-name": "Isaac Ezer"
+      }
+    }
+  ]
+}

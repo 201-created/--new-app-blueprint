@@ -6,3 +6,9 @@ index-template my button: {{my-button}}
 {{legacy-pods-component}}
 {{partial "post"}}
 {{partial "author"}}
+
+Models:
+
+{{#each model as |post|}}
+  {{post.fullName}}
+{{/each}}
